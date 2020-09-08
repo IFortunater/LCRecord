@@ -5,7 +5,10 @@
 #include<vector>
 #include<set>
 #include <typeinfo>
+#include<ctime>
+#include<cmath>
 using namespace std;
+
 
 // void sth(vector<int> a){
 //     a[0] = 5;
@@ -164,14 +167,51 @@ using namespace std;
 //     return 0;
 // }
 
+// int main(int argc, char const *argv[])
+// {
+//     string str = "    Let's take LeetCode contest";
+//     int blank = 0;
+//     while (str[blank] == ' '){
+//         blank++;
+//     }
+//     str = str.substr(blank);
+//     cout << str << endl;
+//     return 0;
+// }
+
+// int main(int argc, char const *argv[])
+// {
+    
+//     return 0;
+// }
+
+// int arr1[100000000] = {0};
+// int arr2[10000][10000];
+// int main(int argc, char const *argv[])
+// {
+//     long res = 0;
+//     clock_t start1 = clock();
+//     for (long i = 0; i < 100000000; i ++){
+//        res += arr1[i];
+//     }
+//     clock_t end1 = clock();
+//     cout << "第一个测试所用时间：" << (double)(end1 - start1) / CLOCKS_PER_SEC << "s" << endl;
+//     res = 0;
+//     clock_t start2 = clock();
+//     for (long i = 0; i < 10000; i++)
+//     {
+//         for (long j = 0; j < 10000; j++)
+//         {
+//            res += arr2[i][j];
+//         }
+//     }
+//     clock_t end2 = clock();
+//     cout << "第二个测试所用时间：" << (double)(end2 - start2) / CLOCKS_PER_SEC << "s" << endl;
+//     return 0;
+// }
+
 int main(int argc, char const *argv[])
 {
-    string str = "    Let's take LeetCode contest";
-    int blank = 0;
-    while (str[blank] == ' '){
-        blank++;
-    }
-    str = str.substr(blank);
-    cout << str << endl;
+    vector<int> arr = {1, 2, 3, 4, 5};
     return 0;
 }
